@@ -1,0 +1,26 @@
+* {
+  font-family: "Unkempt", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a50c38;
+  display: flex;
+  justify-content: center;
+}
+
+body > * {
+  color: lightyellow;
+  /* padding: 2rem; */
+  /* margin-bottom: 2rem; */
+}
+
+.title {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  color: whitesmoke;
+}
