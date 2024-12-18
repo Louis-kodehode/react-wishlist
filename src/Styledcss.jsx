@@ -42,7 +42,7 @@ const Cards = styled.div`
 `;
 
 const Christmastree = styled.div`
-  background-image: url("/src/assets/christmasback.png");
+  background-image: url("src/assets/christmasback.png");
   background-size: 100%;
   width: 100vw;
   height: 100%;
@@ -52,23 +52,11 @@ const Christmastree = styled.div`
   align-items: center;
   flex-direction: column;
 `;
-const Container5 = styled.div`
-  background-color: brown;
-  width: 100px;
-  height: 100px;
-`;
-const Container6 = styled.div`
-  background-color: pink;
-  width: 100px;
-  height: 100px;
-`;
 
 const containerstyles = {
   Container,
   Cards,
   Christmastree,
-  Container5,
-  Container6,
 };
 
 export default containerstyles;
