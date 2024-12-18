@@ -64,7 +64,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   padding: 1rem;
   box-shadow: 0px 1.5px 5px 1px black inset, 0px -3px 3px 0px black inset;
 `,Hh=bo.div`
-  background-image: url("/src/assets/christmasback.png");
+  background-image: url("src/assets/christmasback.png");
   background-size: 100%;
   width: 100vw;
   height: 100%;
