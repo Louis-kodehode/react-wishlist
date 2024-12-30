@@ -42,9 +42,9 @@ const Cards = styled.div`
 `;
 
 const Christmastree = styled.div`
-  background-image: url("src/assets/christmasback.png");
+  background-image: url("christmasback.png");
   background-size: 100%;
-  width: 100vw;
+  width: 95vw;
   height: 100%;
   // background-repeat: no-repeat;
   display: flex;
@@ -63,5 +63,3 @@ export default containerstyles;
 
 // background: ${(props, i) =>
 //   props.naughty
-// ? "linear-gradient(135deg, #81c784, #aed581)"
-// : "linear-gradient(135deg, #e3f2fd, #f1f1f1)"};

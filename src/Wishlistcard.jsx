@@ -3,7 +3,13 @@ import wishlist from "./App";
 import Sparkles from "react-sparkle";
 
 const Sparkle = () => (
-  <Sparkles color={"lightyellow"} count={10} overflowPx={10} />
+  <Sparkles
+    color={"lightyellow"}
+    count={10}
+    overflowPx={10}
+    fadeOutSpeed={25}
+    flicker={false}
+  />
 );
 
 function Wishlistcard({ data: { name, age, wishlist, naughty } }) {
